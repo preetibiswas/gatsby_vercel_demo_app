@@ -1,0 +1,25 @@
+.dental{
+    width: 50%;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+   
+
+}
+.dental:hover{
+   width: 40%;
+   
+}
+
+@media screen and (max-width:1024px){
+    .con{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+@media screen and (max-width:600px){
+    .con{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,57 @@
+.clinic{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 78px;
+    color: #003B79;
+    
+
+}
+.first{
+    position: absolute;
+    left: 60%;
+    right: 30.19%;
+    top: 10.78%;
+    bottom: 90.05%;
+    
+}
+.team{
+    position: absolute;
+    left: 0%;
+   bottom: 60%;
+  
+   
+}
+.second{
+    position: relative;
+    left:150%;
+    top:30%
+}
+.second_img{
+    
+    position: absolute;
+    left: 0%;
+   bottom: 60%;
+  
+
+}
+.third{
+    position: relative;
+    left:60%;
+    bottom: -5%;
+  
+}
+.third_img{
+    
+        position: absolute;
+        left: 0%;
+       bottom: 45%;
+}
+.btn{
+
+
+
+background: #007FF4;
+border-radius: 30px;
+}

@@ -1,0 +1,41 @@
+.hed1{
+    text-align: center;
+    color: #003B79;
+    font-weight: bold;
+    font-size: 250%;
+    
+}
+.flex2{
+    height: 200%;
+    width: 20%;
+    background: #FFFFFF;
+    align-items: center;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+
+}
+.flex2:hover{
+    background: #111be6;
+}
+.img-photo{
+    border-radius: 10px 10px;;
+    width: 100%;
+    height: 150%;
+  
+}
+
+@media screen and (max-width:1024px){
+    .col{
+      
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .flex2{
+        width: auto;
+    }
+}
+@media screen and (max-width:600px){
+    .col{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
